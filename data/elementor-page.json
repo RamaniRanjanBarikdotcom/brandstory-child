@@ -1,0 +1,1959 @@
+{
+ "title": "Digital Marketing Agency in Abu Dhabi",
+ "type": "page",
+ "version": "0.4",
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "a80ca54",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-hero",
+    "_title": "Hero",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "07ab178",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Digital Marketing Agency In Abu Dhabi",
+      "header_size": "h1",
+      "align": "center",
+      "_css_classes": "bs-hero__title"
+     },
+     "elements": []
+    },
+    {
+     "id": "5bffe96",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Looking for a digital marketing agency in Abu Dhabi? With 12+ years of expertise, BrandStory delivers culturally intelligent, data-driven strategies that connect your brand with high-intent UAE audiences.</p>",
+      "_css_classes": "bs-hero__text"
+     },
+     "elements": []
+    },
+    {
+     "id": "61a5193",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "Get in Touch",
+      "link": {
+       "url": "#quote",
+       "is_external": "",
+       "nofollow": ""
+      },
+      "selected_icon": {
+       "value": "fas fa-chevron-right",
+       "library": "fa-solid"
+      },
+      "icon_align": "row",
+      "_css_classes": "bs-btn-outline"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "95df8a8",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-clients-section",
+    "_title": "Client logos"
+   },
+   "elements": [
+    {
+     "id": "d1183ad",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Trusted by Top Brands Across Industries",
+      "header_size": "h2",
+      "align": "center",
+      "_css_classes": "bs-clients__title"
+     },
+     "elements": []
+    },
+    {
+     "id": "41b9f69",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[bs_clients]",
+      "_css_classes": "bs-shortcode"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "26be417",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-services",
+    "_element_id": "services",
+    "_title": "Services",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "afeb975",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "c3b2074",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Results-Driven Digital Marketing Services <br class=\"br-desktop\">in Abu Dhabi, UAE",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "0e8fbcc",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 0,
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-grid",
+        "container_type": "grid",
+        "grid_columns_grid": {
+         "unit": "fr",
+         "size": 3
+        },
+        "grid_columns_grid_tablet": {
+         "unit": "fr",
+         "size": 2
+        },
+        "grid_columns_grid_mobile": {
+         "unit": "fr",
+         "size": 1
+        },
+        "grid_rows_grid": {
+         "unit": "fr",
+         "size": 1
+        },
+        "grid_gaps": {
+         "unit": "px",
+         "size": 22,
+         "column": "22",
+         "row": "22",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "565d3ee",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-service-card",
+          "_element_id": "service-seo",
+          "_title": "Service card – Search Engine Optimization (SEO)"
+         },
+         "elements": [
+          {
+           "id": "52bdcc8",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/icons/icon-seo.webp}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-service-card__icon"
+           },
+           "elements": []
+          },
+          {
+           "id": "3660f7d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Search Engine Optimization (SEO)",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "d842f00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Search Engine Optimization (SEO) is crucial for enhancing your website’s visibility and attracting organic traffic. Our SEO experts in Abu Dhabi implement proven strategies to improve rankings, drive qualified traffic, and secure top positions in search results (SERPs).</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          },
+          {
+           "id": "ad16a00",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Know more",
+            "link": {
+             "url": "#quote",
+             "is_external": "",
+             "nofollow": ""
+            },
+            "selected_icon": {
+             "value": "fas fa-arrow-right",
+             "library": "fa-solid"
+            },
+            "icon_align": "row-reverse",
+            "_css_classes": "bs-link-arrow"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "13e0bdd",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-service-card",
+          "_element_id": "service-smm",
+          "_title": "Service card – Social Media Marketing (SMM)"
+         },
+         "elements": [
+          {
+           "id": "660bb2a",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/icons/icon-smm.svg}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-service-card__icon"
+           },
+           "elements": []
+          },
+          {
+           "id": "50de4fc",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Social Media Marketing (SMM)",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "57c1808",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Boost your brand’s presence with targeted social media marketing. We design compelling campaigns that capture attention and connect with audiences across Facebook, Instagram, TikTok, LinkedIn, and Twitter in Abu Dhabi.</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          },
+          {
+           "id": "cf39ab2",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Know more",
+            "link": {
+             "url": "#quote",
+             "is_external": "",
+             "nofollow": ""
+            },
+            "selected_icon": {
+             "value": "fas fa-arrow-right",
+             "library": "fa-solid"
+            },
+            "icon_align": "row-reverse",
+            "_css_classes": "bs-link-arrow"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "7cb14d7",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-service-card",
+          "_element_id": "service-ppc",
+          "_title": "Service card – Pay Per Click (PPC)"
+         },
+         "elements": [
+          {
+           "id": "bd50db9",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/icons/icon-ppc.svg}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-service-card__icon"
+           },
+           "elements": []
+          },
+          {
+           "id": "25bdd87",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Pay Per Click (PPC)",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "daa354f",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>We deliver performance-focused PPC campaign management tailored for businesses in Abu Dhabi. As a certified Google Partner and Meta Partner agency, we optimize pay-per-click campaigns to ensure maximum reach, high-quality leads, and the best return on investment.</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          },
+          {
+           "id": "b10ab9b",
+           "elType": "widget",
+           "widgetType": "button",
+           "settings": {
+            "text": "Know more",
+            "link": {
+             "url": "#quote",
+             "is_external": "",
+             "nofollow": ""
+            },
+            "selected_icon": {
+             "value": "fas fa-arrow-right",
+             "library": "fa-solid"
+            },
+            "icon_align": "row-reverse",
+            "_css_classes": "bs-link-arrow"
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fc507d3",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-about",
+    "_element_id": "about",
+    "_title": "About – experts",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "f78e2f0",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "d7790a1",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_gap": {
+         "unit": "px",
+         "size": 0,
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-split"
+       },
+       "elements": [
+        {
+         "id": "66199af",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "{{asset:images/illustrations/digital-marketing-experts.webp}}",
+           "id": "",
+           "alt": "Digital marketing expert reviewing campaign analytics on a laptop",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_css_classes": "bs-media bs-media--glow"
+         },
+         "elements": []
+        },
+        {
+         "id": "22bade5",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-split__content"
+         },
+         "elements": [
+          {
+           "id": "91245e3",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "We are Digital Marketing <br class=\"br-desktop\">Experts in Abu Dhabi",
+            "header_size": "h2",
+            "_css_classes": "bs-about__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "d197ed8",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<ul><li>BrandStory has been delivering digital marketing and growth engineering services to clients across Dubai and the UAE since 2014. With an expert team of digital marketers, we power up global brands through search engine optimization, Google Ads and Bing Ads, Social Media, influencer marketing, website design and development services.</li><li>Our expertise spans SEO, PPC, social media marketing, online reputation management, content strategy, email marketing, branding, and website development. Our goal is improving your business visibility, increasing qualified traffic, and converting engagement into real business value. At BrandStory, we skip shortcuts and deeply study Abu Dhabi’s industry landscape, audience behavior, and competition to create digital campaigns that resonate locally.</li></ul>",
+            "_css_classes": "bs-about__list"
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "73359d5",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-why",
+    "_element_id": "why-us",
+    "_title": "Why us – accordion",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "83cd72b",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "b6c5358",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "What Sets Us Apart as a Leading Digital Marketing <br class=\"br-desktop\">Agency in Abu Dhabi",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title"
+       },
+       "elements": []
+      },
+      {
+       "id": "a5dce35",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_gap": {
+         "unit": "px",
+         "size": 20,
+         "column": "20",
+         "row": "20",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-why__grid"
+       },
+       "elements": [
+        {
+         "id": "8612fe0",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "{{asset:images/illustrations/why-choose-us.webp}}",
+           "id": "",
+           "alt": "Marketing strategist working with performance dashboards",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_css_classes": "bs-media bs-why__media"
+         },
+         "elements": []
+        },
+        {
+         "id": "f4146bc",
+         "elType": "widget",
+         "widgetType": "nested-accordion",
+         "settings": {
+          "items": [
+           {
+            "item_title": "Human-Driven &amp; AI-Enabled Strategy",
+            "_id": "8ff3ce8"
+           },
+           {
+            "item_title": "Transparency &amp; Collaboration",
+            "_id": "1b63974"
+           },
+           {
+            "item_title": "Tailored, Results-Driven Innovation",
+            "_id": "48dfb99"
+           },
+           {
+            "item_title": "Growth Engineering Expertise",
+            "_id": "757dfa7"
+           }
+          ],
+          "title_tag": "h3",
+          "accordion_item_title_position_horizontal": "stretch",
+          "accordion_item_title_icon_position": "end",
+          "default_state": "expanded",
+          "max_items_expended": "one",
+          "faq_schema": "no",
+          "accordion_item_title_icon": {
+           "value": "fas fa-chevron-down",
+           "library": "fa-solid"
+          },
+          "accordion_item_title_icon_active": {
+           "value": "fas fa-chevron-up",
+           "library": "fa-solid"
+          },
+          "_css_classes": "bs-accordion bs-accordion--feature"
+         },
+         "elements": [
+          {
+           "id": "1ce950a",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "css_classes": "bs-acc-panel"
+           },
+           "elements": [
+            {
+             "id": "75b1341",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>We blend cutting-edge AI for data analysis, trend prediction, and optimization with human creativity, storytelling, and Abu Dhabi cultural insight. This ethical, balanced approach delivers innovative, emotionally resonant campaigns that ensure lasting engagement and strong ROI.</p>",
+              "_css_classes": "bs-acc-body"
+             },
+             "elements": []
+            }
+           ]
+          },
+          {
+           "id": "8a12020",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "css_classes": "bs-acc-panel"
+           },
+           "elements": [
+            {
+             "id": "a2b8b7f",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>You get clear reporting, shared dashboards and a dedicated account team. We set measurable goals together, review performance openly and adjust strategy with you, never behind closed doors.</p>",
+              "_css_classes": "bs-acc-body"
+             },
+             "elements": []
+            }
+           ]
+          },
+          {
+           "id": "0d4c370",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "css_classes": "bs-acc-panel"
+           },
+           "elements": [
+            {
+             "id": "7528185",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>No templates. Every plan is built around your market, audience and targets, then tested and refined continuously so budget flows to what actually drives leads and revenue.</p>",
+              "_css_classes": "bs-acc-body"
+             },
+             "elements": []
+            }
+           ]
+          },
+          {
+           "id": "81cf1a6",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "unit": "px",
+             "size": 0,
+             "column": "0",
+             "row": "0",
+             "isLinked": true
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            },
+            "css_classes": "bs-acc-panel"
+           },
+           "elements": [
+            {
+             "id": "7a922ce",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>We combine conversion optimisation, marketing automation and analytics engineering to remove friction across the funnel, turning traffic into qualified pipeline at scale.</p>",
+              "_css_classes": "bs-acc-body"
+             },
+             "elements": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0538eac",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-partner",
+    "_title": "Trusted partner",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "e7f6440",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "c767bbd",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Your Trusted Digital Marketing Partner in Abu Dhabi",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title bs-title--tight"
+       },
+       "elements": []
+      },
+      {
+       "id": "bf8f9f9",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Selecting the right digital marketing partner in Abu Dhabi is essential to ensure your brand connects with the right audience, maximizes ROI, and achieves sustainable growth in a competitive market.</p>",
+        "_css_classes": "bs-subtitle"
+       },
+       "elements": []
+      },
+      {
+       "id": "4c49b92",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 0,
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-grid",
+        "container_type": "grid",
+        "grid_columns_grid": {
+         "unit": "fr",
+         "size": 3
+        },
+        "grid_columns_grid_tablet": {
+         "unit": "fr",
+         "size": 2
+        },
+        "grid_columns_grid_mobile": {
+         "unit": "fr",
+         "size": 1
+        },
+        "grid_rows_grid": {
+         "unit": "fr",
+         "size": 1
+        },
+        "grid_gaps": {
+         "unit": "px",
+         "size": 22,
+         "column": "22",
+         "row": "22",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "ffe8495",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-feature-card",
+          "_title": "Feature card – We Understand The Landscape"
+         },
+         "elements": [
+          {
+           "id": "059df43",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/features/feature-1.webp}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-feature-card__img"
+           },
+           "elements": []
+          },
+          {
+           "id": "3a3dc2e",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "We Understand The Landscape",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "2b3a711",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>With deep local digital marketing expertise in Abu Dhabi, we provide sharp Abu Dhabi market insights into cultural nuances, affluent consumer behaviors, multilingual demands, and regulatory challenges. This insider knowledge helps us navigate the emirate’s dynamic ecosystem from Hub71 startups to ADGM enterprises for authentic, impactful brand connections.</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "894fbf2",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-feature-card",
+          "_title": "Feature card – Tailored Strategies for Success"
+         },
+         "elements": [
+          {
+           "id": "d0c319b",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/features/feature-2.webp}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-feature-card__img"
+           },
+           "elements": []
+          },
+          {
+           "id": "a513766",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Tailored Strategies for Success",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "668c03f",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>We craft fully customized digital strategies that address Abu Dhabi’s unique digital marketing challenges, including intense competition, cultural diversity, and evolving trends. Blending global best practices with hyper-local insights, our approach delivers sustainable visibility, higher engagement, and measurable growth turning your brand into a preferred choice across the UAE.</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "aa43e39",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-card bs-feature-card",
+          "_title": "Feature card – Overcoming Market Challenges"
+         },
+         "elements": [
+          {
+           "id": "20a6eb4",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "{{asset:images/features/feature-3.webp}}",
+             "id": "",
+             "alt": "",
+             "source": "library"
+            },
+            "image_size": "full",
+            "_css_classes": "bs-feature-card__img"
+           },
+           "elements": []
+          },
+          {
+           "id": "7ad060d",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Overcoming Market Challenges",
+            "header_size": "h3",
+            "_css_classes": "bs-card__title"
+           },
+           "elements": []
+          },
+          {
+           "id": "d30b01d",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Our team excels in tackling Abu Dhabi’s specific digital marketing challenges, from multilingual audience targeting and rapid trend shifts to strict regulations and high expectations. Through data-driven, culturally attuned solutions, we create robust, adaptable strategies that ensure long-term success, strong ROI, and lasting brand preference in the competitive UAE landscape.</p>",
+            "_css_classes": "bs-card__text"
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "adf3d6a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-stats",
+    "_title": "Statistics",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "3dc6c03",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "b9cbe6d",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 0,
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-stats__banner",
+        "_title": "Stats banner"
+       },
+       "elements": [
+        {
+         "id": "b2848da",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Our Statistics",
+          "header_size": "h2",
+          "align": "center",
+          "_css_classes": "bs-stats__title"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "e1a82f3",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 0,
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "css_classes": "bs-stats__grid",
+        "container_type": "grid",
+        "grid_columns_grid": {
+         "unit": "fr",
+         "size": 4
+        },
+        "grid_columns_grid_tablet": {
+         "unit": "fr",
+         "size": 2
+        },
+        "grid_columns_grid_mobile": {
+         "unit": "fr",
+         "size": 2
+        },
+        "grid_rows_grid": {
+         "unit": "fr",
+         "size": 1
+        },
+        "grid_gaps": {
+         "unit": "px",
+         "size": 11,
+         "column": "11",
+         "row": "11",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "7a64ea8",
+         "elType": "widget",
+         "widgetType": "counter",
+         "settings": {
+          "starting_number": 0,
+          "ending_number": 350,
+          "suffix": "+",
+          "title": "Campaigns Executed",
+          "title_tag": "p",
+          "title_position": "after",
+          "duration": 1600,
+          "_css_classes": "bs-stat"
+         },
+         "elements": []
+        },
+        {
+         "id": "7413b9b",
+         "elType": "widget",
+         "widgetType": "counter",
+         "settings": {
+          "starting_number": 0,
+          "ending_number": 180,
+          "suffix": "+",
+          "title": "Satisfied Clients",
+          "title_tag": "p",
+          "title_position": "after",
+          "duration": 1600,
+          "_css_classes": "bs-stat"
+         },
+         "elements": []
+        },
+        {
+         "id": "d11210c",
+         "elType": "widget",
+         "widgetType": "counter",
+         "settings": {
+          "starting_number": 0,
+          "ending_number": 10,
+          "suffix": "+",
+          "title": "Years of Experience",
+          "title_tag": "p",
+          "title_position": "after",
+          "duration": 1600,
+          "_css_classes": "bs-stat"
+         },
+         "elements": []
+        },
+        {
+         "id": "1d08a72",
+         "elType": "widget",
+         "widgetType": "counter",
+         "settings": {
+          "starting_number": 0,
+          "ending_number": 600,
+          "suffix": "+",
+          "title": "Cups of Coffee",
+          "title_tag": "p",
+          "title_position": "after",
+          "duration": 1600,
+          "_css_classes": "bs-stat"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3af672a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-team-section",
+    "_element_id": "team",
+    "_title": "Team carousel",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "51df371",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner"
+     },
+     "elements": [
+      {
+       "id": "7b5b543",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Meet Our Expert Team",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title bs-title--tight"
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "7904393",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[bs_team_carousel]",
+      "_css_classes": "bs-shortcode"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "a8dd8d2",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-faq",
+    "_element_id": "faq",
+    "_title": "FAQ",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "8454214",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner bs-inner--narrow"
+     },
+     "elements": [
+      {
+       "id": "87dd64e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "FAQ’s",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title bs-title--tight"
+       },
+       "elements": []
+      },
+      {
+       "id": "bdd262f",
+       "elType": "widget",
+       "widgetType": "nested-accordion",
+       "settings": {
+        "items": [
+         {
+          "item_title": "How Does Digital Marketing Support Business Growth In Abu Dhabi?",
+          "_id": "744ab47"
+         },
+         {
+          "item_title": "Which Digital Marketing Channels Work Best For Abu Dhabi Businesses?",
+          "_id": "30c1cc6"
+         },
+         {
+          "item_title": "How Is Local Market Understanding Important In Digital Marketing?",
+          "_id": "8c51f04"
+         },
+         {
+          "item_title": "How Long Does It Take To See Results From Digital Marketing?",
+          "_id": "42afd0e"
+         },
+         {
+          "item_title": "Can Digital Marketing Help Reach Both Local And Regional Audiences?",
+          "_id": "973f150"
+         }
+        ],
+        "title_tag": "h3",
+        "accordion_item_title_position_horizontal": "stretch",
+        "accordion_item_title_icon_position": "end",
+        "default_state": "expanded",
+        "max_items_expended": "one",
+        "faq_schema": "yes",
+        "accordion_item_title_icon": {
+         "value": "fas fa-chevron-down",
+         "library": "fa-solid"
+        },
+        "accordion_item_title_icon_active": {
+         "value": "fas fa-chevron-up",
+         "library": "fa-solid"
+        },
+        "_css_classes": "bs-accordion bs-accordion--faq"
+       },
+       "elements": [
+        {
+         "id": "6241890",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-acc-panel"
+         },
+         "elements": [
+          {
+           "id": "78b39e5",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Digital marketing helps businesses in Abu Dhabi build visibility, attract relevant audiences, and convert interest into leads through a mix of search, social, content, and performance channels.</p>",
+            "_css_classes": "bs-acc-body"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "b434c09",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-acc-panel"
+         },
+         "elements": [
+          {
+           "id": "c6ac86e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>It depends on your audience. Search (SEO and Google Ads) captures high-intent demand, while Instagram, LinkedIn and TikTok build awareness. Most brands see the best ROI from a combined search and social strategy.</p>",
+            "_css_classes": "bs-acc-body"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "d58d9b1",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-acc-panel"
+         },
+         "elements": [
+          {
+           "id": "92ed984",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Abu Dhabi has a multilingual, multicultural audience with distinct buying behaviour. Local insight shapes language, creative, timing and channel choices so campaigns feel relevant and convert better.</p>",
+            "_css_classes": "bs-acc-body"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "6a09912",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-acc-panel"
+         },
+         "elements": [
+          {
+           "id": "735e8b8",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Paid campaigns can generate leads within days. SEO and content usually show meaningful movement in three to six months, compounding over time.</p>",
+            "_css_classes": "bs-acc-body"
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "47d17ee",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "css_classes": "bs-acc-panel"
+         },
+         "elements": [
+          {
+           "id": "e49f392",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Yes. Geo-targeting lets you focus on Abu Dhabi neighbourhoods while scaling the same campaigns across the UAE and wider GCC.</p>",
+            "_css_classes": "bs-acc-body"
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "49c0d4b",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "bs-section bs-cases",
+    "_element_id": "case-studies",
+    "_title": "Case studies",
+    "html_tag": "section"
+   },
+   "elements": [
+    {
+     "id": "8ba7b3e",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "css_classes": "bs-inner",
+      "_title": "Inner column"
+     },
+     "elements": [
+      {
+       "id": "6eb7f58",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Proven Digital Marketing Success Our <br class=\"br-desktop\">Abu Dhabi Case Studies",
+        "header_size": "h2",
+        "align": "center",
+        "_css_classes": "bs-title bs-title--tight"
+       },
+       "elements": []
+      },
+      {
+       "id": "7245bb7",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[bs_case_studies]",
+        "_css_classes": "bs-shortcode"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

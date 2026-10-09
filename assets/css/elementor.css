@@ -1,0 +1,234 @@
+/* ==========================================================================
+   ELEMENTOR BRIDGE
+   Maps Elementor's widget markup onto the shared design system (base.css,
+   components.css). Every hook is a CSS class set in the Elementor panel
+   (Advanced → CSS Classes), so editors can move/duplicate widgets freely.
+
+   Naming: .bs-*  = BrandStory classes added in Elementor.
+   Scope:  body.brandstory .elementor.elementor body class (inc/setup.php) keeps specificity predictable.
+   ========================================================================== */
+
+/* ---------- Neutralise Elementor defaults inside our page ---------- */
+body.brandstory .elementor.elementor .e-con { --container-max-width: 100%; }
+body.brandstory .elementor.elementor { --kit-widget-spacing: 0px; --widgets-spacing: 0px; --widgets-spacing-row: 0px; --widgets-spacing-column: 0px; }
+body.brandstory .elementor.elementor .elementor-heading-title { line-height: 1.2; font-weight: 600; color: inherit; }
+body.brandstory .elementor.elementor .elementor-widget-text-editor p:last-child { margin-bottom: 0; }
+body.brandstory .elementor.elementor .elementor-widget-image img { display: block; }
+body.brandstory .site-main { overflow-x: clip; }
+
+/* ---------- Generic section + inner column ---------- */
+body.brandstory .elementor.elementor .bs-section { padding-block: var(--section-y); align-items: center; }
+body.brandstory .elementor.elementor .bs-inner {
+  width: 100%; max-width: calc(var(--container) + var(--gutter) * 2);
+  margin-inline: auto; padding-inline: var(--gutter);
+}
+body.brandstory .elementor.elementor .bs-inner--narrow { max-width: calc(var(--container-narrow) + var(--gutter) * 2); }
+
+/* Section headings (heading widget with .bs-title) */
+body.brandstory .elementor.elementor .bs-title .elementor-heading-title { font-size: var(--fs-h2); text-align: center; letter-spacing: -.005em; }
+body.brandstory .elementor.elementor .bs-title { margin-bottom: clamp(36px, 4.5vw, 58px); }
+body.brandstory .elementor.elementor .bs-title--tight { margin-bottom: 20px; }
+body.brandstory .elementor.elementor .bs-subtitle { max-width: 1080px; margin: 0 auto clamp(36px, 4vw, 50px); text-align: center; color: var(--c-text-muted); font-size: 1.0625rem; }
+
+/* ---------- 1. Hero ---------- */
+body.brandstory .elementor.elementor .bs-hero {
+  position: relative; overflow: hidden; isolation: isolate;
+  align-items: center; text-align: center;
+  padding: clamp(180px, 28.4vw, 430px) var(--gutter) 0;
+  background:
+    radial-gradient(40% 22% at 22% 4%, rgba(120, 88, 235, .5), transparent 70%),
+    radial-gradient(36% 22% at 80% 6%, rgba(120, 88, 235, .45), transparent 70%),
+    radial-gradient(42% 16% at 50% 30%, rgba(133, 91, 255, .3), transparent 100%),
+    radial-gradient(70% 40% at 50% 50%, rgba(95, 65, 200, .35), transparent 70%),
+    linear-gradient(180deg, #0b0c13 0%, #120f22 45%, #100f1a 100%);
+}
+body.brandstory .elementor.elementor .bs-hero::before, body.brandstory .elementor.elementor .bs-clients-section::before { /* grid */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(133, 91, 255, .2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(133, 91, 255, .2) 1px, transparent 1px);
+  background-size: 86px 86px; background-position: -10px -10px;
+}
+body.brandstory .elementor.elementor .bs-hero::before { -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,.3), #000 45%); mask-image: linear-gradient(180deg, rgba(0,0,0,.3), #000 45%); }
+body.brandstory .elementor.elementor .bs-hero::after { /* glowing arc: a large ring whose top edge is the only visible part */
+  content: ""; position: absolute; z-index: -1; left: 50%; top: clamp(110px, 15.9vw, 240px);
+  width: max(145.5vw, 760px); aspect-ratio: 1; transform: translateX(-50%);
+  border-radius: 50%; border: 6px solid #a58dff; pointer-events: none;
+  box-shadow:
+    0 0 6px 1px #b9a6ff,
+    0 0 28px 6px rgba(133, 91, 255, .85),
+    0 0 80px 16px rgba(133, 91, 255, .45),
+    inset 0 0 24px 2px rgba(133, 91, 255, .7),
+    inset 0 40px 90px -20px rgba(133, 91, 255, .4);
+}
+body.brandstory .elementor.elementor .bs-hero__title .elementor-heading-title { font-size: var(--fs-h1); text-shadow: 0 2px 20px rgba(0, 0, 0, .35); letter-spacing: -.01em; }
+body.brandstory .elementor.elementor .bs-hero__text { max-width: 1000px; margin: clamp(28px, 4vw, 52px) auto clamp(32px, 4.2vw, 62px); font-size: var(--fs-lead); line-height: 1.3; color: #f2f2f5; }
+
+/* Clients strip under the hero */
+body.brandstory .elementor.elementor .bs-clients-section { position: relative; isolation: isolate; padding: clamp(80px, 12vw, 180px) 0 clamp(56px, 5vw, 76px); background: linear-gradient(180deg, #100f1a, #0b0c11); }
+body.brandstory .elementor.elementor .bs-clients-section::before { -webkit-mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.25)); mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.25)); }
+body.brandstory .elementor.elementor .bs-clients__title .elementor-heading-title { font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); font-weight: 400; text-align: center; }
+body.brandstory .elementor.elementor .bs-clients__title { margin-bottom: clamp(32px, 3.6vw, 50px); padding-inline: var(--gutter); }
+
+/* ---------- Buttons (button widget) ---------- */
+body.brandstory .elementor.elementor .elementor-button { font-family: var(--ff-base); transition: background-color var(--t-fast), color var(--t-fast), border-color var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast); }
+body.brandstory .elementor.elementor .elementor-button-content-wrapper { align-items: center; gap: 10px; }
+body.brandstory .elementor.elementor .elementor-button .elementor-button-icon svg { width: 1em; height: 1em; fill: currentColor; }
+
+body.brandstory .elementor.elementor .bs-btn-outline .elementor-button {
+  display: inline-flex; align-items: center; min-height: 68px; padding: 0 34px 0 30px;
+  border-radius: var(--radius-pill); border: 1px solid var(--c-primary); background: #171717; color: var(--c-white);
+  font-size: 1.25rem; font-weight: 500;
+}
+body.brandstory .elementor.elementor .bs-btn-outline .elementor-button:hover { background: var(--c-primary); color: var(--c-white); transform: translateY(-2px); box-shadow: 0 10px 34px rgba(133, 91, 255, .5); }
+body.brandstory .elementor.elementor .bs-btn-outline .elementor-button-icon { font-size: .9em; transition: transform var(--t-fast); }
+body.brandstory .elementor.elementor .bs-btn-outline .elementor-button:hover .elementor-button-icon { transform: translateX(3px); }
+
+body.brandstory .elementor.elementor .bs-link-arrow { margin-top: auto; padding-top: 32px; }
+body.brandstory .elementor.elementor .bs-link-arrow .elementor-button { padding: 0; background: none; color: var(--c-white); font-size: 1.125rem; font-weight: 500; border-radius: 0; }
+body.brandstory .elementor.elementor .bs-link-arrow .elementor-button-content-wrapper { gap: 14px; }
+body.brandstory .elementor.elementor .bs-link-arrow .elementor-button-icon { color: var(--c-primary); font-size: 1.1em; transition: transform var(--t-fast); }
+body.brandstory .elementor.elementor .bs-link-arrow .elementor-button:hover { color: var(--c-primary-300); }
+body.brandstory .elementor.elementor .bs-link-arrow .elementor-button:hover .elementor-button-icon { transform: translateX(6px); }
+
+/* ---------- Cards (container with .bs-card) ---------- */
+body.brandstory .elementor.elementor .bs-card {
+  padding: clamp(24px, 2.2vw, 30px);
+  border-radius: var(--radius);
+  background: radial-gradient(120% 70% at 50% 45%, var(--c-surface-glow) 0%, rgba(38, 34, 56, 0) 70%), var(--c-surface);
+  border: 1px solid var(--c-border);
+  transition: transform var(--t), border-color var(--t), box-shadow var(--t);
+}
+body.brandstory .elementor.elementor .bs-card:hover { transform: translateY(-6px); border-color: rgba(133, 91, 255, .7); box-shadow: 0 22px 50px -18px rgba(133, 91, 255, .45); }
+body.brandstory .elementor.elementor .bs-card__title { margin-bottom: 18px; }
+body.brandstory .elementor.elementor .bs-card__title .elementor-heading-title { font-size: clamp(1.25rem, 1.05rem + .5vw, 1.4375rem); letter-spacing: -.01em; }
+body.brandstory .elementor.elementor .bs-card__text { color: var(--c-text-muted); font-size: var(--fs-body); line-height: 1.4; letter-spacing: .01em; }
+
+body.brandstory .elementor.elementor .bs-service-card { min-height: 485px; }
+body.brandstory .elementor.elementor .bs-service-card__icon {
+  width: 100px; height: 100px; margin-bottom: clamp(36px, 4vw, 62px);
+  display: grid; place-items: center; border-radius: 50%; background: var(--c-white);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .25); transition: transform var(--t);
+}
+body.brandstory .elementor.elementor .bs-service-card__icon img { width: 50px; height: auto; }
+body.brandstory .elementor.elementor .bs-service-card:hover .bs-service-card__icon { transform: rotate(-8deg) scale(1.05); }
+
+body.brandstory .elementor.elementor .bs-feature-card { min-height: 564px; padding: 20px 20px 34px; border-color: transparent; background: radial-gradient(100% 60% at 50% 40%, #221f33 0%, rgba(34, 31, 51, 0) 75%), var(--c-surface); }
+body.brandstory .elementor.elementor .bs-feature-card__img { align-self: center; margin-bottom: 30px; }
+body.brandstory .elementor.elementor .bs-feature-card__img img {
+  height: 200px; width: auto; object-fit: contain;
+  -webkit-mask-image: radial-gradient(closest-side, #000 72%, transparent 100%); mask-image: radial-gradient(closest-side, #000 72%, transparent 100%);
+  transition: transform var(--t);
+}
+body.brandstory .elementor.elementor .bs-feature-card:hover .bs-feature-card__img img { transform: translateY(-6px) scale(1.04); }
+body.brandstory .elementor.elementor .bs-feature-card .bs-card__title { margin-bottom: 22px; }
+body.brandstory .elementor.elementor .bs-feature-card .bs-card__text { color: #f0f0f3; }
+
+/* Grids: native Elementor grid containers; the gap/column count is set in the panel */
+body.brandstory .elementor.elementor .bs-grid { --e-con-grid-template-rows: auto; }
+@media (min-width: 640px) and (max-width: 1024px) {
+  body.brandstory .elementor.elementor .bs-grid > .bs-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+
+/* ---------- 3. About ---------- */
+body.brandstory .elementor.elementor .bs-split { display: grid; grid-template-columns: 1.06fr 1fr; gap: clamp(40px, 8vw, 120px); align-items: start; }
+body.brandstory .elementor.elementor .bs-media img { width: 100%; border-radius: var(--radius-lg); background: #f5f3ff; transition: transform .8s var(--ease); }
+body.brandstory .elementor.elementor .bs-media { border-radius: var(--radius-lg); }
+body.brandstory .elementor.elementor .bs-media--glow { position: relative; z-index: 0; }
+body.brandstory .elementor.elementor .bs-media--glow::before {
+  content: ""; position: absolute; inset: 6% -4% -6%; z-index: -1;
+  background: radial-gradient(closest-side, rgba(133, 91, 255, .55), rgba(133, 91, 255, 0)); filter: blur(30px);
+}
+body.brandstory .elementor.elementor .bs-about__title { margin-bottom: clamp(28px, 4vw, 58px); }
+body.brandstory .elementor.elementor .bs-about__title .elementor-heading-title { font-size: var(--fs-h2-lg); font-weight: 400; line-height: 1.22; }
+body.brandstory .elementor.elementor .bs-about__list ul { list-style: disc; padding-left: 30px; display: grid; gap: 20px; }
+body.brandstory .elementor.elementor .bs-about__list li { font-size: var(--fs-lead); line-height: 1.38; letter-spacing: .015em; color: #ececf0; }
+
+/* ---------- 4. Why us + nested accordion ---------- */
+body.brandstory .elementor.elementor .bs-why__grid { display: grid; grid-template-columns: 535fr 756fr; gap: 20px; align-items: start; }
+body.brandstory .elementor.elementor .bs-why__media { overflow: hidden; border-radius: 20px; }
+body.brandstory .elementor.elementor .bs-why__media img { border-radius: 20px; aspect-ratio: 535 / 561; object-fit: cover; }
+body.brandstory .elementor.elementor .bs-why__media:hover img { transform: scale(1.03); }
+
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion { display: flex; flex-direction: column; gap: 25px; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item { border-radius: 14px; overflow: hidden; transition: background-color var(--t), box-shadow var(--t); }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title {
+  display: flex; align-items: center; justify-content: space-between; gap: 20px;
+  border: 0; cursor: pointer; list-style: none;
+}
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title::-webkit-details-marker { display: none; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title-header { flex: 1; text-align: left; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title-icon { order: 2; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title-text { font-size: inherit; font-weight: 500; line-height: 1.3; color: inherit; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title-icon { display: grid; place-items: center; flex-shrink: 0; border-radius: 50%; transition: background-color var(--t-fast), color var(--t-fast); }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title-icon svg { width: 14px; height: 14px; fill: currentColor; }
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item,
+body.brandstory .elementor.elementor .bs-accordion .e-n-accordion-item-title,
+body.brandstory .elementor.elementor .bs-accordion .bs-acc-panel { border: 0; }
+body.brandstory .elementor.elementor .bs-accordion .bs-acc-panel { padding: 0; background: none; }
+
+/* Feature skin */
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item { background: linear-gradient(90deg, #2a2440 0%, #201d2d 100%); }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item-title { padding: 25px; min-height: 88px; font-size: var(--fs-h3); color: var(--c-white); }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item-title-icon { width: 38px; height: 38px; background: var(--c-white); color: var(--c-text-dark); }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item-title:hover .e-n-accordion-item-title-icon { background: var(--c-primary); color: var(--c-white); }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item[open] { background: var(--c-white); box-shadow: 0 20px 40px -20px rgba(133, 91, 255, .5); }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item[open] .e-n-accordion-item-title { color: var(--c-primary); padding-bottom: 18px; }
+body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item[open] .e-n-accordion-item-title-icon { background: var(--c-primary); color: var(--c-white); }
+body.brandstory .elementor.elementor .bs-accordion--feature .bs-acc-body { padding: 0 25px 34px; color: #1d1d1f; font-size: var(--fs-lead); line-height: 1.38; }
+
+/* FAQ skin */
+body.brandstory .elementor.elementor .bs-accordion--faq .e-n-accordion-item { background: var(--c-faq); border-radius: var(--radius-sm); }
+body.brandstory .elementor.elementor .bs-accordion--faq .e-n-accordion-item:hover { background: #303030; }
+body.brandstory .elementor.elementor .bs-accordion--faq .e-n-accordion-item-title { padding: 24px 20px; min-height: 85px; font-size: clamp(1.0625rem, 1rem + .3vw, 1.375rem); color: var(--c-white); }
+body.brandstory .elementor.elementor .bs-accordion--faq .e-n-accordion-item-title-icon { width: 36px; height: 36px; background: var(--c-bg); color: var(--c-white); }
+body.brandstory .elementor.elementor .bs-accordion--faq .e-n-accordion-item[open] .e-n-accordion-item-title-icon { background: var(--c-primary); }
+body.brandstory .elementor.elementor .bs-accordion--faq .bs-acc-body { padding: 0 20px 28px; max-width: 900px; color: var(--c-text-muted); font-size: 1.0625rem; line-height: 1.6; }
+
+/* ---------- 6. Statistics (counter widget) ---------- */
+body.brandstory .elementor.elementor .bs-stats__banner {
+  height: 394px; border-radius: 20px; overflow: hidden; padding-top: 82px; align-items: center;
+  background: url("../images/backgrounds/stats-banner.webp") center / cover no-repeat, linear-gradient(180deg, #8d67ff 0%, #f1edff 100%);
+}
+body.brandstory .elementor.elementor .bs-stats__title .elementor-heading-title { font-size: var(--fs-h2); color: var(--c-text-dark); text-align: center; }
+body.brandstory .elementor.elementor .bs-stats__grid { margin: -121px 17px 0; width: auto; position: relative; z-index: 1; }
+body.brandstory .elementor.elementor .bs-stat {
+  min-height: 243px; display: flex; align-items: center; justify-content: center;
+  padding: 40px 16px; background: var(--c-white); border-radius: 20px;
+  box-shadow: 0 20px 40px -24px rgba(133, 91, 255, .6); transition: transform var(--t), box-shadow var(--t);
+}
+body.brandstory .elementor.elementor .bs-stat:hover { transform: translateY(-6px); box-shadow: 0 28px 50px -20px rgba(133, 91, 255, .75); }
+body.brandstory .elementor.elementor .bs-stat .elementor-counter { flex-direction: column-reverse; align-items: center; gap: 22px; }
+body.brandstory .elementor.elementor .bs-stat .elementor-counter-number-wrapper { font-size: clamp(2.75rem, 2rem + 2.2vw, 4rem); line-height: 1; color: var(--c-primary); font-weight: 400; font-variant-numeric: tabular-nums; }
+body.brandstory .elementor.elementor .bs-stat .elementor-counter-title { font-size: clamp(1.125rem, 1rem + .4vw, 1.5rem); color: #1e1e22; text-align: center; line-height: 1.2; }
+
+/* ---------- 7–9. Shortcode sections ---------- */
+/* Elementor's global "img { height:auto }" would undo the sizing in sections.css */
+body.brandstory .elementor.elementor .marquee__track img { height: clamp(34px, 3.4vw, 52px); width: auto; max-width: none; }
+body.brandstory .elementor.elementor .team__slide img, body.brandstory .elementor.elementor .case-card img { width: 100%; height: 100%; object-fit: cover; }
+body.brandstory .elementor.elementor .bs-shortcode, body.brandstory .elementor.elementor .bs-shortcode .elementor-shortcode { width: 100%; }
+body.brandstory .elementor.elementor .bs-team-section { padding-bottom: clamp(var(--section-y), 13vw, 200px); overflow: hidden; }
+body.brandstory .elementor.elementor .bs-team .container { padding-inline: var(--gutter); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  body.brandstory .elementor.elementor .bs-split, body.brandstory .elementor.elementor .bs-why__grid { grid-template-columns: 1fr; }
+  body.brandstory .elementor.elementor .bs-split .bs-media { max-width: 680px; }
+  body.brandstory .elementor.elementor .bs-why__media { max-width: 560px; width: 100%; justify-self: center; }
+  body.brandstory .elementor.elementor .bs-why__media img { aspect-ratio: 16 / 12; object-position: center 20%; }
+  body.brandstory .elementor.elementor .bs-stats__banner { height: 300px; padding-top: 60px; }
+  body.brandstory .elementor.elementor .bs-stats__grid { margin-top: -150px; }
+  body.brandstory .elementor.elementor .bs-stat { min-height: 190px; }
+}
+@media (max-width: 767px) {
+  body.brandstory .elementor.elementor .bs-service-card, body.brandstory .elementor.elementor .bs-feature-card { min-height: 0; }
+  body.brandstory .elementor.elementor .bs-accordion--feature .e-n-accordion-item-title { padding: 20px; min-height: 72px; }
+  body.brandstory .elementor.elementor .bs-accordion--feature .bs-acc-body { padding: 0 20px 26px; }
+}
+@media (max-width: 479px) {
+  body.brandstory .elementor.elementor .bs-stats__banner { height: 260px; padding-top: 46px; }
+  body.brandstory .elementor.elementor .bs-stats__grid { margin-inline: 10px; margin-top: -160px; --gap: 10px; gap: 10px; }
+  body.brandstory .elementor.elementor .bs-stat { min-height: 150px; padding: 24px 10px; }
+  body.brandstory .elementor.elementor .bs-stat .elementor-counter { gap: 12px; }
+  body.brandstory .elementor.elementor .bs-stat .elementor-counter-title { font-size: 1rem; }
+}
